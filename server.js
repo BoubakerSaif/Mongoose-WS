@@ -91,6 +91,16 @@ start();
 ///////////////////////////////////////////////////
 
 // async function start() {
+//   await User.updateMany(
+//     { name: { $regex: /a\b/gi } },
+//     { $set: { name: "DONIA" } }
+//   );
+// }
+
+// start();
+///////////////////////////////////////////////////
+
+// async function start() {
 //   await User.findByIdAndDelete("6650e685bc182e7551cef654");
 // }
 // start();
